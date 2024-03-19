@@ -9,15 +9,15 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>FirstServlet</servlet-name>
-        <url-pattern>/hello-world</url-pattern>
+        <url-pattern>/test-servlet</url-pattern>
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>firstJsp</servlet-name>
-        <jsp-file>/firstJsp.jsp</jsp-file>
+        <servlet-name>testJsp</servlet-name>
+        <jsp-file>/testJsp.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>firstJsp</servlet-name>
+        <servlet-name>testJsp</servlet-name>
         <url-pattern>/hello-world-jsp</url-pattern>
     </servlet-mapping>
 

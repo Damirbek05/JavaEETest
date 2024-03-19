@@ -1,5 +1,6 @@
 package com.example.javaeetest2;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -20,6 +21,10 @@ public class FirstServlet extends HttpServlet {
         pw.println("<h1> Hello, " + name + " " + surname + " </h1>");
         pw.println("</html>");
 
+
+
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/testJsp.jsp");
+        dispatcher.forward(req,resp);
     }
 
 }

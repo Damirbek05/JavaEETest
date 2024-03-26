@@ -37,13 +37,14 @@
         <servlet-name>GetCookiesServlet</servlet-name>
         <url-pattern>/get-cookies</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>DeleteCookiesServlet</servlet-name>
         <servlet-class>com.example.javaeetest2.DeleteCookiesServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>DeleteCookiesServlet</servlet-name>
-        <url-pattern>delete-cookies</url-pattern>
+        <url-pattern>/delete-cookies</url-pattern>
     </servlet-mapping>
 
 

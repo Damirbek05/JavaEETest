@@ -14,7 +14,7 @@ public class SetCookiesServlet extends HttpServlet {
         Cookie cookie1 = new Cookie("some_id","123");
         Cookie cookie2 = new Cookie("some_name","Damirbek");
 
-        cookie1.setMaxAge(86400);
+        cookie1.setMaxAge(24*60*60);
         cookie2.setMaxAge(24*60*60);
 
         resp.addCookie(cookie1);
